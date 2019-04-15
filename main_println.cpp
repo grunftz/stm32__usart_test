@@ -52,7 +52,7 @@ int main(void)
 	//0.75 * 16 = 12-> C
 	//468.75=0x14DC
 	
-	USART1->BRR=0x1D4C;
+	USART1->BRR=0x1D4C; //9600
 
 
 	//enable RX enable TX UART enable in CR1 register
